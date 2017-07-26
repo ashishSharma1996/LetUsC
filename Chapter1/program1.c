@@ -1,5 +1,5 @@
 /*
-program 1
+program 1: Program To Print Reverse Of A Number
 */
 #include<stdio.h>
 
