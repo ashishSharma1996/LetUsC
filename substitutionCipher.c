@@ -77,9 +77,6 @@ int main()
 		}
 		
 	}
-	k=0;
-	while(output[k]!='X')
-	printf("%c",output[k++]);
-	printf("\n");
+	puts(output);
 	return(0);
 }
