@@ -8,7 +8,9 @@ int main()
 	char str[1000];
 	char output[1000];
 	static char grid[10][1000];
+	printf("Enter the Depth: ");
 	scanf("%d",&maxRow);
+	printf("Enter the String: ");
 	scanf("%s",str);
 	maxCol=strlen(str);
 	while(currentCol<maxCol)
@@ -75,6 +77,9 @@ int main()
 		}
 		
 	}
-	puts(output);
+	k=0;
+	while(output[k]!='X')
+	printf("%c",output[k++]);
+	printf("\n");
 	return(0);
 }
