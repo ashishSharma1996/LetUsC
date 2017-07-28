@@ -1,5 +1,5 @@
 /*
-program 1: Program To Print Reverse Of A Number
+program 1: Program To Print Sum Of Digits
 */
 #include<stdio.h>
 
